@@ -75,6 +75,7 @@
     <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
+    <Content Include="YemekDetay.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AnaSayfa.aspx.cs">
@@ -120,6 +121,13 @@
     </Compile>
     <Compile Include="TarifOner.aspx.designer.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YemekDetay.aspx.cs">
+      <DependentUpon>YemekDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YemekDetay.aspx.designer.cs">
+      <DependentUpon>YemekDetay.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

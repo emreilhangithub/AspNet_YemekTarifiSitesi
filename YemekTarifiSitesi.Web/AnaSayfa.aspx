@@ -1,13 +1,15 @@
 ﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Kullanici.Master" AutoEventWireup="true" CodeBehind="AnaSayfa.aspx.cs" Inherits="YemekTarifiSitesi.Web.AnaSayfa" %>
+
 <asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolder2" runat="server">
     <style type="text/css">
         .auto-style5 {
             width: 100%;
         }
+
         .auto-style6 {
             height: 23px;
         }
-        </style>
+    </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <p>
@@ -16,7 +18,10 @@
                 <table class="auto-style5">
                     <tr>
                         <td style="background-color: #FFFF99; color: #FFFFFF;">
-                            <asp:Label ID="Label3" runat="server" Text='<%# Eval("YemekAd") %>' style="color: #CC0099; font-weight: 700"></asp:Label>
+
+                            <a href="YemekDetay.aspx?Yemekid=<%# Eval("YemekId") %>">
+                                <asp:Label ID="Label3" runat="server" Text='<%# Eval("YemekAd") %>' Style="color: #CC0099; font-weight: 700"></asp:Label>
+                            </a>
                         </td>
                     </tr>
                     <tr>
@@ -31,9 +36,9 @@
                     </tr>
                     <tr>
                         <td class="auto-style6"><strong>Eklenme Tarihi =</strong>
-                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekTarih") %>' style="color: #FFFFFF"></asp:Label>
+                            <asp:Label ID="Label6" runat="server" Text='<%# Eval("YemekTarih") %>' Style="color: #FFFFFF"></asp:Label>
                             &nbsp;- <strong>Puan =
-                            <asp:Label ID="Label7" runat="server" style="color: #FFFFFF" Text='<%# Eval("YemekPuan") %>'></asp:Label>
+                            <asp:Label ID="Label7" runat="server" Style="color: #FFFFFF" Text='<%# Eval("YemekPuan") %>'></asp:Label>
                             </strong>
                         </td>
                     </tr>
