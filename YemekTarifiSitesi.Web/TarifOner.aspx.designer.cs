@@ -51,13 +51,13 @@ namespace YemekTarifiSitesi.Web
         protected global::System.Web.UI.WebControls.FileUpload FileUploadResim;
 
         /// <summary>
-        /// TxtTarihOneren control.
+        /// TxtTarifOneren control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox TxtTarihOneren;
+        protected global::System.Web.UI.WebControls.TextBox TxtTarifOneren;
 
         /// <summary>
         /// TxtMailAdresi control.
@@ -69,12 +69,12 @@ namespace YemekTarifiSitesi.Web
         protected global::System.Web.UI.WebControls.TextBox TxtMailAdresi;
 
         /// <summary>
-        /// BtnTarif control.
+        /// BtnTarifOner control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.Button BtnTarif;
+        protected global::System.Web.UI.WebControls.Button BtnTarifOner;
     }
 }

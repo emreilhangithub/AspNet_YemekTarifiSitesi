@@ -48,7 +48,7 @@
         <tr>
             <td class="auto-style5">Tarif Öneren =</td>
             <td>
-                <asp:TextBox ID="TxtTarihOneren" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifOneren" runat="server" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -60,7 +60,7 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="BtnTarif" runat="server" BackColor="#FFFFCC" Height="40px" style="font-weight: 700; font-style: italic; margin-left: 26px" Text="Tarif Öner" Width="182px" />
+                <asp:Button ID="BtnTarifOner" runat="server" BackColor="#FFFFCC" Height="40px" style="font-weight: 700; font-style: italic; margin-left: 26px" Text="Tarif Öner" Width="182px" OnClick="BtnTarifOner_Click" />
             </td>
         </tr>
     </table>
