@@ -16,7 +16,7 @@ namespace YemekTarifiSitesi.Web
         {
             yemekID = Request.QueryString["yemekid"];
 
-            SqlCommand komut = new SqlCommand("SELECT YemekAd From Tbl_Yemekler where YemekId = @YemekId", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("SELECT YemekAd FROM Tbl_Yemekler WHERE YemekId = @YemekId", bgl.baglanti());
             komut.Parameters.AddWithValue("@YemekId", yemekID);
             SqlDataReader dr = komut.ExecuteReader();
             while (dr.Read())
@@ -24,6 +24,15 @@ namespace YemekTarifiSitesi.Web
                 LblYemekAdi.Text = dr[0].ToString();
             }
             bgl.baglanti().Close();
+
+            //Yorumları Listeleme
+            SqlCommand komut2 = new SqlCommand("SELECT * FROM Tbl_Yorumlar WHERE YorumYemekId = @YemekId", bgl.baglanti());
+            komut2.Parameters.AddWithValue("@YemekId", yemekID);
+            SqlDataReader dr2 = komut2.ExecuteReader();
+            DataList2.DataSource = dr2;
+            DataList2.DataBind();
+            bgl.baglanti().Close();
+
         }
     }
 }
