@@ -71,8 +71,8 @@
     <Content Include="GununYemegi.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="Kullanici.css" />
     <Content Include="Resimler\mucver-ytk-site.jpg" />
-    <Content Include="StyleSheet.css" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />

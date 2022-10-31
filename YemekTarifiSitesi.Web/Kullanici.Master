@@ -5,7 +5,7 @@
 <html>
 <head runat="server">
     <title></title>
-    <link href="StyleSheet.css" rel="stylesheet" />
+    <link href="Kullanici.css" rel="stylesheet" />
     <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
