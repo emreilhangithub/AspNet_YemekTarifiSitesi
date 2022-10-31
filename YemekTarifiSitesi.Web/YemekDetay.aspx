@@ -7,6 +7,13 @@
         .auto-style6 {
             height: 24px;
         }
+        .auto-style7 {
+            text-align: left;
+            background-color: #999999;
+        }
+        .auto-style8 {
+            text-align: right;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -32,4 +39,42 @@
             </table>
         </ItemTemplate>
     </asp:DataList>
+    <div class="auto-style7"> YORUM PANELİ </div>
+    <table class="auto-style5">
+        <tr>
+            <td class="auto-style8"><strong></strong></td>
+            <td>&nbsp;</td>
+        </tr>
+        <tr>
+            <td class="auto-style8"><strong>Ad Soyad:</strong></td>
+            <td>
+                <asp:TextBox ID="TxtYorumAdSoyad" runat="server" Width="200px" Height="20px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style8"><strong>Mail:</strong></td>
+            <td>
+                <asp:TextBox ID="TxtMailAdresi" runat="server" Width="200px" Height="20px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style8"><strong>Yorumunuz:</strong></td>
+            <td>
+                <asp:TextBox ID="TxtYorumunuz" runat="server" Height="100px" TextMode="MultiLine" Width="200px"></asp:TextBox>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style8"><strong></strong></td>
+            <td>
+                <strong>
+                <asp:Button ID="BtnYorumYap" runat="server" OnClick="BtnYorumYap_Click" Text="Yorum Yap" CssClass="auto-style4" Width="200px" />
+                </strong>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style8">&nbsp;</td>
+            <td>
+                &nbsp;</td>
+        </tr>
+    </table>
 </asp:Content>

@@ -34,5 +34,16 @@ namespace YemekTarifiSitesi.Web
             bgl.baglanti().Close();
 
         }
+
+        protected void BtnYorumYap_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand(@"INSERT INTO Tbl_Yorumlar (YorumAdSoyad, YorumMail, YorumIcerik, YorumYemekId) VALUES (@YorumAdSoyad,@YorumMail,@YorumIcerik,@YorumYemekId)", bgl.baglanti());
+            komut.Parameters.AddWithValue("@YorumAdSoyad", TxtYorumAdSoyad.Text);
+            komut.Parameters.AddWithValue("@YorumMail", TxtMailAdresi.Text);
+            komut.Parameters.AddWithValue("@YorumIcerik", TxtYorumunuz.Text);
+            komut.Parameters.AddWithValue("@YorumYemekId", yemekID);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
     }
 }
