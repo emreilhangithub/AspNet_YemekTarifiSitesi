@@ -36,25 +36,25 @@
                         <td>&nbsp;</td>
                     </tr>
                     <tr>
-                        <td>KATEGORİLER</td>
+                        <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx">KATEGORİLER</a></td>
                     </tr>
                     <tr>
-                        <td>YEMEKLER</td>
+                        <td style="border: thin solid #FFFFFF">YEMEKLER</td>
                     </tr>
                     <tr>
-                        <td>YORUMLAR</td>
+                        <td style="border: thin solid #FFFFFF">YORUMLAR</td>
                     </tr>
                     <tr>
-                        <td>MESAJLAR</td>
+                        <td style="border: thin solid #FFFFFF">MESAJLAR</td>
                     </tr>
                     <tr>
-                        <td>GUNUN YEMEĞİ</td>
+                        <td style="border: thin solid #FFFFFF">GÜNÜN YEMEĞİ</td>
                     </tr>
                     <tr>
-                        <td>ÖNERİLER</td>
+                        <td style="border: thin solid #FFFFFF">ÖNERİLER</td>
                     </tr>
                     <tr>
-                        <td>HAKKIMIZDA</td>
+                        <td style="border: thin solid #FFFFFF">HAKKIMIZDA</td>
                     </tr>
                 </table>
                 <br />

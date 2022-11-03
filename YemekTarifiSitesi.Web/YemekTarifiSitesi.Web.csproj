@@ -74,6 +74,7 @@
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriDetay.aspx" />
+    <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
     <Content Include="Resimler\Admin-Login.jpg" />
     <Content Include="Resimler\blogpicture.jpg" />
@@ -81,6 +82,8 @@
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
+    <Content Include="İcon\delete.png" />
+    <Content Include="İcon\update.png" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Admin.aspx.cs">
@@ -131,6 +134,13 @@
     </Compile>
     <Compile Include="KategoriDetay.aspx.designer.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.designer.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
