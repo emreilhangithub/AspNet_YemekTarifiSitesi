@@ -15,7 +15,7 @@
         <tr>
             <td class="auto-style5">KATEGORİ ADI =</td>
             <td>
-                <asp:TextBox ID="TxtKategoriAdi" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtKategoriAd" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -33,7 +33,7 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="BtnGuncelle" runat="server" Text="Güncelle" />
+                <asp:Button ID="BtnGuncelle" runat="server" Text="Güncelle" OnClick="BtnGuncelle_Click" />
             </td>
         </tr>
     </table>
