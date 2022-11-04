@@ -75,7 +75,7 @@
                             <a href="KategoriDuzenle.aspx?KategoriId=<%# Eval("KategoriId") %>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/İcon/update.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style8">
-                            <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" />
+                            <a href="Kategoriler.aspx?KategoriId=<%# Eval("KategoriId") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" /></a>
                         </td>
                     </tr>
                 </table>
