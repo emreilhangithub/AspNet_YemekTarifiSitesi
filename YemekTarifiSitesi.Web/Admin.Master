@@ -39,7 +39,7 @@
                         <td style="border: thin solid #FFFFFF"><a href="Kategoriler.aspx">KATEGORİLER</a></td>
                     </tr>
                     <tr>
-                        <td style="border: thin solid #FFFFFF">YEMEKLER</td>
+                        <td style="border: thin solid #FFFFFF"><a href="Yemekler.aspx">YEMEKLER</a></td>
                     </tr>
                     <tr>
                         <td style="border: thin solid #FFFFFF">YORUMLAR</td>

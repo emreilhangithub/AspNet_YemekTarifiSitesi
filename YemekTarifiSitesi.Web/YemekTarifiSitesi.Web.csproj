@@ -83,6 +83,7 @@
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
     <Content Include="YemekDetay.aspx" />
+    <Content Include="Yemekler.aspx" />
     <Content Include="İcon\delete.png" />
     <Content Include="İcon\update.png" />
   </ItemGroup>
@@ -172,6 +173,13 @@
     </Compile>
     <Compile Include="YemekDetay.aspx.designer.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Yemekler.aspx.cs">
+      <DependentUpon>Yemekler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Yemekler.aspx.designer.cs">
+      <DependentUpon>Yemekler.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>
