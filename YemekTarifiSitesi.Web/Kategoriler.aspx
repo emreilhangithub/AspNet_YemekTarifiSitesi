@@ -104,19 +104,19 @@
         <tr>
             <td>KATEGORİ AD =</td>
             <td>
-                <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                <asp:TextBox ID="TxtKategoriAd" runat="server"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>KATEGORİ İKON =</td>
             <td>
-                <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                <asp:FileUpload ID="FileUpload1" runat="server" />
             </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td><strong>
-                <asp:Button ID="Button5" runat="server" CssClass="auto-style17" Text="Ekle" Width="100px" />
+                <asp:Button ID="BtnKategoriEkle" runat="server" CssClass="auto-style17" Text="Ekle" Width="100px" OnClick="BtnKategoriEkle_Click" />
                 </strong></td>
         </tr>
     </table>

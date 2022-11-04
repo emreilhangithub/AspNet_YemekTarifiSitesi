@@ -41,5 +41,13 @@ namespace YemekTarifiSitesi.Web
         {
             Panel4.Visible = false;
         }
+
+        protected void BtnKategoriEkle_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("INSERT INTO Tbl_Kategoriler (KategoriAd) VALUES (@KategoriAd)", bgl.baglanti());
+            komut.Parameters.AddWithValue("@KategoriAd",TxtKategoriAd.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
     }
 }
