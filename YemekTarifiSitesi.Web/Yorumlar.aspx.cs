@@ -11,6 +11,8 @@ namespace YemekTarifiSitesi.Web
     public partial class Yorumlar : System.Web.UI.Page
     {
         private Sqlsinifi bgl = new Sqlsinifi();
+        private string YorumId = "";
+        private string islem = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             // Onaylı Yorumlar Listesi
@@ -24,6 +26,21 @@ namespace YemekTarifiSitesi.Web
             SqlDataReader dr2 = komut2.ExecuteReader();
             DataList2.DataSource = dr2;
             DataList2.DataBind();
+
+            YorumId = Request.QueryString["YorumId"];
+            islem = Request.QueryString["islem"];
+            //Silme işlemi
+            if (Page.IsPostBack == false)
+            {
+                if (islem == "sil")
+                {
+                    SqlCommand komutSil = new SqlCommand("DELETE FROM Tbl_Yorumlar WHERE YorumId = @YorumId",
+                        bgl.baglanti());
+                    komutSil.Parameters.AddWithValue("@YorumId", YorumId);
+                    komutSil.ExecuteNonQuery();
+                    bgl.baglanti().Close();
+                }
+            }
 
 
             Panel2.Visible = false;

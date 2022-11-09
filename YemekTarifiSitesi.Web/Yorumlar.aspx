@@ -56,7 +56,7 @@
         </table>
     </asp:Panel>
     <asp:Panel ID="Panel2" runat="server">
-        <asp:DataList ID="DataList1" runat="server" Width="444px">
+        <asp:DataList ID="DataList1" runat="server" Width="444px" >
             <ItemTemplate>
                 <table class="auto-style4">
                     <tr>

@@ -43,13 +43,13 @@
         <tr>
             <td class="auto-style6"><strong>Yemek =</strong></td>
             <td>
-                <asp:TextBox ID="TxtYorumYemek" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtYorumYemek" runat="server" Width="250px" Enabled="False"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td><strong>
-                <asp:Button ID="BtnOnayla" runat="server" CssClass="auto-style8" Text="Onayla" Width="250px" />
+                <asp:Button ID="BtnOnayla" runat="server" CssClass="auto-style8" Text="Onayla" Width="250px" OnClick="BtnOnayla_Click" />
                 </strong></td>
         </tr>
     </table>
