@@ -11,13 +11,13 @@ namespace YemekTarifiSitesi.Web
     public partial class Yemekler : System.Web.UI.Page
     {
         private Sqlsinifi bgl = new Sqlsinifi();
-        private string KategoriId = "";
+        private string YemekId = "";
         private string islem = "";
         protected void Page_Load(object sender, EventArgs e)
         {
             if (Page.IsPostBack == false)
             {
-                KategoriId = Request.QueryString["KategoriId"];
+                YemekId = Request.QueryString["YemekId"];
                 islem = Request.QueryString["islem"];
 
                 //Kategori Listesi
@@ -38,8 +38,8 @@ namespace YemekTarifiSitesi.Web
 
             if (islem == "sil")
             {
-                SqlCommand komutSil = new SqlCommand("DELETE FROM Tbl_Kategoriler WHERE KategoriId = @KategoriId", bgl.baglanti());
-                komutSil.Parameters.AddWithValue("@KategoriId", KategoriId);
+                SqlCommand komutSil = new SqlCommand("DELETE FROM Tbl_Yemekler WHERE YemekId = @YemekId", bgl.baglanti());
+                komutSil.Parameters.AddWithValue("@YemekId", YemekId);
                 komutSil.ExecuteNonQuery();
                 bgl.baglanti().Close();
             }
@@ -70,12 +70,19 @@ namespace YemekTarifiSitesi.Web
 
         protected void BtnYemekEkle_Click(object sender, EventArgs e)
         {
+            //Yemek Ekleme
             SqlCommand komut = new SqlCommand("INSERT INTO Tbl_Yemekler (YemekAd,YemekMalzeme,YemekTarifi,KategoriId) VALUES (@YemekAd,@YemekMalzeme,@YemekTarifi,@KategoriId)", bgl.baglanti());
             komut.Parameters.AddWithValue("@YemekAd", TxtYemekAd.Text);
             komut.Parameters.AddWithValue("@YemekMalzeme", TxtMalzemeler.Text);
             komut.Parameters.AddWithValue("@YemekTarifi", TxtTarif.Text);
             komut.Parameters.AddWithValue("@KategoriId", DdlKategori.SelectedValue);
             komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+
+            //Kategori Sayısını Arttırma
+            SqlCommand komut2 = new SqlCommand("UPDATE Tbl_Kategoriler SET KategoriAdet = KategoriAdet + 1 WHERE KategoriId=@KategoriId", bgl.baglanti());
+            komut2.Parameters.AddWithValue("@KategoriId", DdlKategori.SelectedValue);
+            komut2.ExecuteNonQuery();
             bgl.baglanti().Close();
         }
     }
