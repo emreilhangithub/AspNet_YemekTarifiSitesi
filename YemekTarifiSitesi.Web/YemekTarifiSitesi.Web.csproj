@@ -77,6 +77,8 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="Kullanici.css" />
+    <Content Include="MesajDetay.aspx" />
+    <Content Include="Mesajlar.aspx" />
     <Content Include="Resimler\Admin-Login.jpg" />
     <Content Include="Resimler\blogpicture.jpg" />
     <Content Include="Resimler\mucver-ytk-site.jpg" />
@@ -88,6 +90,7 @@
     <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
     <Content Include="İcon\delete.png" />
+    <Content Include="İcon\read.png" />
     <Content Include="İcon\update.png" />
   </ItemGroup>
   <ItemGroup>
@@ -160,6 +163,20 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Mesajlar.aspx.designer.cs">
+      <DependentUpon>Mesajlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Sqlsinifi.cs" />

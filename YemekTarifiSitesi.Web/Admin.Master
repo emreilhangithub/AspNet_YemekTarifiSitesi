@@ -45,7 +45,7 @@
                         <td style="border: thin solid #FFFFFF"><a href="Yorumlar.aspx">YORUMLAR</a></td>
                     </tr>
                     <tr>
-                        <td style="border: thin solid #FFFFFF">MESAJLAR</td>
+                        <td style="border: thin solid #FFFFFF"><a href="Mesajlar.aspx">MESAJLAR</a></td>
                     </tr>
                     <tr>
                         <td style="border: thin solid #FFFFFF">GÜNÜN YEMEĞİ</td>
