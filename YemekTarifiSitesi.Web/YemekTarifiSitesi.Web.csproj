@@ -85,6 +85,7 @@
     <Content Include="YemekDetay.aspx" />
     <Content Include="YemekDuzenle.aspx" />
     <Content Include="Yemekler.aspx" />
+    <Content Include="YorumDetay.aspx" />
     <Content Include="Yorumlar.aspx" />
     <Content Include="İcon\delete.png" />
     <Content Include="İcon\update.png" />
@@ -189,6 +190,13 @@
     </Compile>
     <Compile Include="Yemekler.aspx.designer.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YorumDetay.aspx.designer.cs">
+      <DependentUpon>YorumDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yorumlar.aspx.cs">
       <DependentUpon>Yorumlar.aspx</DependentUpon>

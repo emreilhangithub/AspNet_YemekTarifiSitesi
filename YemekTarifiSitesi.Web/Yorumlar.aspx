@@ -64,10 +64,10 @@
                             <asp:Label ID="Label1" runat="server" CssClass="auto-style9" Text='<%# Eval("YorumAdSoyad") %>'></asp:Label>
                         </td>
                         <td class="auto-style8">
-                            <a href="KategoriDuzenle.aspx?KategoriId=<%# Eval("YorumId") %>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/İcon/update.png" Width="30px" /></a>
+                            <a href="YorumDetay.aspx?YorumId=<%# Eval("YorumId") %>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/İcon/update.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style8">
-                            <a href="Kategoriler.aspx?KategoriId=<%# Eval("YorumId") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" /></a>
+                            <a href="Yorumlar.aspx?YorumId=<%# Eval("YorumId") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" /></a>
                         </td>
                     </tr>
                 </table>
@@ -96,10 +96,10 @@
                             <asp:Label ID="Label1" runat="server" CssClass="auto-style9" Text='<%# Eval("YorumAdSoyad") %>'></asp:Label>
                         </td>
                         <td class="auto-style8">
-                            <a href="KategoriDuzenle.aspx?KategoriId=<%# Eval("YorumId") %>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/İcon/update.png" Width="30px" /></a>
+                            <a href="YorumDetay.aspx?YorumId=<%# Eval("YorumId") %>"><asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/İcon/update.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style8">
-                            <a href="Kategoriler.aspx?KategoriId=<%# Eval("YorumId") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" /></a>
+                            <a href="Yorumlar.aspx?YorumId=<%# Eval("YorumId") %>&islem=sil"><asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/İcon/delete.png" Width="30px" /></a>
                         </td>
                     </tr>
                 </table>
