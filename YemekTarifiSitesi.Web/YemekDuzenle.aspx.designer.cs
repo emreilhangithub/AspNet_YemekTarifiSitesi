@@ -51,6 +51,15 @@ namespace YemekTarifiSitesi.Web
         protected global::System.Web.UI.WebControls.DropDownList DdlKategori;
 
         /// <summary>
+        /// FuYemekGoruntu control.
+        /// </summary>
+        /// <remarks>
+        /// Auto-generated field.
+        /// To modify move field declaration from designer file to code-behind file.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.FileUpload FuYemekGoruntu;
+
+        /// <summary>
         /// BtnGuncelle control.
         /// </summary>
         /// <remarks>

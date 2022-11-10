@@ -73,6 +73,12 @@
             </td>
         </tr>
         <tr>
+            <td class="auto-style6"><strong>YEMEK GÖRÜNTÜ =</strong></td>
+            <td class="auto-style10">
+                <asp:FileUpload ID="FuYemekGoruntu" runat="server" Width="250px" />
+            </td>
+        </tr>
+        <tr>
             <td>&nbsp;</td>
             <td class="auto-style10">
                 <strong>
