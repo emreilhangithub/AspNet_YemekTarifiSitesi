@@ -13,7 +13,7 @@ namespace YemekTarifiSitesi.Web
         private Sqlsinifi bgl = new Sqlsinifi();
         protected void Page_Load(object sender, EventArgs e)
         {
-            SqlCommand komut = new SqlCommand("SELECT * FROM Tbl_GununYemegi", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("SELECT * FROM Tbl_Yemekler WHERE Durum = 1", bgl.baglanti());
             SqlDataReader oku = komut.ExecuteReader();
             DataList2.DataSource = oku;
             DataList2.DataBind();

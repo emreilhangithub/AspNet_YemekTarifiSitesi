@@ -71,6 +71,7 @@
     <Content Include="AnaSayfa.aspx" />
     <Content Include="Banner\banner.jpg" />
     <Content Include="GununYemegi.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="Hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriDuzenle.aspx" />
@@ -81,6 +82,7 @@
     <Content Include="Mesajlar.aspx" />
     <Content Include="Resimler\Admin-Login.jpg" />
     <Content Include="Resimler\blogpicture.jpg" />
+    <Content Include="İcon\check.png" />
     <Content Include="Resimler\mucver-ytk-site.jpg" />
     <Content Include="TarifOner.aspx" />
     <Content Include="Web.config" />
@@ -121,6 +123,13 @@
     </Compile>
     <Compile Include="GununYemegi.aspx.designer.cs">
       <DependentUpon>GununYemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="Hakkimizda.aspx.cs">
       <DependentUpon>Hakkimizda.aspx</DependentUpon>
