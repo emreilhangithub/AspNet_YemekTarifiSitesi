@@ -51,7 +51,7 @@
                         <td style="border: thin solid #FFFFFF"><a href="GununYemegiAdmin.aspx">GÜNÜN YEMEĞİ</a></td>
                     </tr>
                     <tr>
-                        <td style="border: thin solid #FFFFFF">ÖNERİLER</td>
+                        <td style="border: thin solid #FFFFFF"><a href="Tarifler.aspx">TARİFLER</a></td>
                     </tr>
                     <tr>
                         <td style="border: thin solid #FFFFFF">HAKKIMIZDA</td>
