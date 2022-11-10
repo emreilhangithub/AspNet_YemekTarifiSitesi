@@ -83,6 +83,7 @@
     <Content Include="Resimler\Admin-Login.jpg" />
     <Content Include="Resimler\blogpicture.jpg" />
     <Content Include="Tarifler.aspx" />
+    <Content Include="TarifOnerDetay.aspx" />
     <Content Include="İcon\check.png" />
     <Content Include="Resimler\mucver-ytk-site.jpg" />
     <Content Include="TarifOner.aspx" />
@@ -204,6 +205,13 @@
     </Compile>
     <Compile Include="TarifOner.aspx.designer.cs">
       <DependentUpon>TarifOner.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="TarifOnerDetay.aspx.cs">
+      <DependentUpon>TarifOnerDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="TarifOnerDetay.aspx.designer.cs">
+      <DependentUpon>TarifOnerDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="YemekDetay.aspx.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
