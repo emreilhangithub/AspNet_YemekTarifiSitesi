@@ -93,4 +93,4 @@ Hakkimizda Listesinde + butonuna basılarak sistemde var olan hakkimizda yazıs�
 ![Hakkimizda](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/Admin/Hakkimizda.png)
 
 	
-```C#``` ```ASP.NET Core``` ```MSSQL``` ```Software``` ```Computer``` ```Programmer```
+```C#``` ```ASP.NET``` ```MSSQL``` ```Software``` ```Computer``` ```Programmer```
