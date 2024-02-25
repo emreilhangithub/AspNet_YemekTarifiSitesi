@@ -2,7 +2,7 @@
 
 ## Proje Tanıtımı 
 
-*Bu projede ASP.NET kullanarak yemek tariflerini anlatan bir web sitesi oluşturdum.*
+*Bu projede ASP.NET kullanarak yemek tariflerini anlatan bir web sitesi oluşturdum. CRUD operasyonları için ado.net kullandım.*
 
 # Database Yedeği #
 Databse kısmına aşşağıdan ulaşıp kendinize yükleyebilirsiniz. https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/tree/master/database
@@ -32,7 +32,7 @@ Kullanıcının istediği herhangi bir yemeği öneride bulunmasını sağlar b�
 ### 2) Admin Ekranı
 
 Admini menülerden işlem yapabileceği bir ekran karşılar ve buradan menüleri seçerek sayfalara erişebilir.
-![AnaSayfa](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/Admin/AnaSayfa.png)
+![AdminAnaSayfa](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/Admin/AdminAnaSayfa.png)
 
 ### Ketegoriler Sayfası
 Kategori Listesinde + butonuna basılarak sistemde var olan kategoriler listelenir. 
