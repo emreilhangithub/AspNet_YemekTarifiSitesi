@@ -9,8 +9,26 @@ Databse kısmına aşşağıdan ulaşıp kendinize yükleyebilirsiniz. https://g
 
 # Proje İçeriği #
 
-### Giriş Paneli
-Admin kullanıcı adı ve şifresini yazdıktan sonra giriş butonuna basarak giriş sağlayabilir.
-![GirisPaneli](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/GirisPaneli.png)
+### 1) Kullanıcı Ekranı
 
-```ASP.NET Core``` ```C#``` ```MSSQL``` ```Software``` ```Computer``` ```Programmer```
+Anasayfa yemek kategorileri listelenir ve default olarak tüm kategoriler listelenir.
+![AnaSayfa](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/AnaSayfa.png)
+
+Anasayfada Kategori listesinden istenilen kategori seçilir ve o kategoriye ait yemekler listelenir.
+![KategoriGetir](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/KategoriGetir.png)
+
+Anasayfada admin tarafından seçilmiş günün yemeği kullanıcıya gösterilir.
+![GununYemegi](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/GununYemegi.png)
+
+Site hakkında kullanıcıya kısa bilgilendirme yapılır.
+![Hakkimizda](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/Hakkimizda.png)
+
+Kullanıcının adminle iletişime geçmesine yarar.
+![Iletisim](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/Iletisim.png)
+
+Kullanıcının istediği herhangi bir yemeği öneride bulunmasını sağlar böylece admin kullanıcı önerilerini seçip yemekleri paylaşabilir.
+![TarifOner](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/blob/master/images/TarifOner.png)
+
+### 2) Admin Ekranı
+
+```C#``` ```ASP.NET Core``` ```MSSQL``` ```Software``` ```Computer``` ```Programmer```
