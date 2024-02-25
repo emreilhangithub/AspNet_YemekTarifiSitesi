@@ -5,7 +5,7 @@
 *Bu projede ASP.NET kullanarak yemek tariflerini anlatan bir web sitesi oluşturdum. CRUD operasyonları için ado.net kullandım.*
 
 # Database Yedeği #
-Databse kısmına aşşağıdan ulaşıp kendinize yükleyebilirsiniz. https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/tree/master/database
+Database kısmına [buradan](https://github.com/emreilhangithub/AspNet_YemekTarifiSitesi/tree/master/database) ulaşıp kendinize yükleyebilirsiniz.
 
 # Proje İçeriği #
 
